@@ -18,6 +18,7 @@ const SearchBar = () => {
       <label>
         <strong>Filter:</strong>
         <select onChange={null}>
+          <option value="All">All</option>
           <option value="Tech">Tech</option>
           <option value="Sportswear">Sportswear</option>
           <option value="Finance">Finance</option>
